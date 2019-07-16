@@ -39,5 +39,7 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  newest_arr = 
+  newest_arr = array
+  newest_arr[index_number] = element
+  return newest_arr
 end
